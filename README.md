@@ -4,6 +4,34 @@ All the scripts are written in Python version - 3.8.11.
 
 ===============================================================================
 
+Project Organization
+------------
+
+    ├── README.md            <- The top-level README for project info.
+    ├── Code
+    │   ├── metadata         <- The intermediate loss, accuracy,f1 score values for future computations.
+    │   ├── reports          <- The different loss and accuracy curves in different learning rates
+    │   ├── model.py          
+    │   ├── model0.py
+    │   ├── train.py
+    │   ├── trace_model.py
+    │   ├── metascripts.py
+    │   ├── visualize.py
+    │   ├── EyeData_preparation.py
+    │   ├── data_preprocess.py
+    |
+    |
+    └── DATASET             <- Dataset to be used for model learning and testing
+        ├── train           <- Training dataset
+        |   ├── healthy           
+        |   └── infected
+        └── validation      <- Testing dataset
+            ├── healthy           
+            └── infected
+        
+        
+    
+    
 ## **Libraries required**
 
 The following libraries are required to implement the project.
