@@ -55,7 +55,11 @@ Getting Started
 3. Move DATASET(our prepared dataset) folder in the Code Folder  
 
 ## **Preparing Custom dataset**
-1. Crop the images using the opensource tool [freehand-cropper](https://half-6.github.io/lf-freehand-cropper/)
+1. Crop the healthy and infected images using the opensource tool [freehand-cropper](https://half-6.github.io/lf-freehand-cropper/)
+2. Put them in two folders - healthy and infected
+3. Run ./data_preprocess.py
+4. Move the final folder as DATASET in the Code folder
+
 ## **Training and Testing**
 Run ./train.py
 ## **Metric Analysis**
