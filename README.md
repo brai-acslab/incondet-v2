@@ -52,8 +52,10 @@ Getting Started
 ------------
 1. Clone the repository
 2. Open a terminal inside the directory  
-3. Move DATASET folder in the Code Folder  
+3. Move DATASET(our prepared dataset) folder in the Code Folder  
 
+## **Preparing Custom dataset**
+1. Crop the images using the opensource tool [freehand-cropper](https://half-6.github.io/lf-freehand-cropper/)
 ## **Training and Testing**
 Run ./train.py
 ## **Metric Analysis**
