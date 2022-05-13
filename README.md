@@ -50,15 +50,15 @@ The following libraries are required to implement the project.
 
 Getting Started
 ------------
-1. Clone the repository  
-2. Move DATASET folder in the Code Folder  
+1. Clone the repository
+2. Open a terminal inside the directory  
+3. Move DATASET folder in the Code Folder  
 
 ## **Training and Testing**
-Run train.py
-## **Step: 1**
-
-
-
-## **Step: 2**
+Run ./train.py
+## **Metric Analysis**
+Run ./metascripts.py
+## **Convert the model for app deployment**
+Run ./trace_model.py
 
 
